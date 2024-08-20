@@ -1,0 +1,72 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .field {
+    margin-bottom: 16px;
+  }
+  
+  .field label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .field input {
+    width: 100%;
+  }
+  
+  .submitButton {
+    width: 100%;
+    margin-top: 16px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 4px;
+  }
+  
+  .spinner {
+    margin-left: 8px;
+  }
+  
+  /* Container for the form */
+.container {
+  display: flex;
+  justify-content: center; /* Center the form horizontally */
+  align-items: center; /* Center the form vertically */
+  height: 100vh; /* Full viewport height */
+  background-color: #f4f4f4; /* Light background color */
+}
+
+.form {
+  width: 100%;
+  max-width: 400px; /* Set a maximum width for the form */
+  padding: 2rem;
+  background-color: #fff; /* White background for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.field {
+  margin-bottom: 1.5rem; /* Spacing between fields */
+}
+
+.submitButton {
+  width: 100%; /* Full width for the submit button */
+}
+
+.error {
+  color: #f44336; /* Red color for error messages */
+  margin-top: 0.5rem; /* Space above error messages */
+  font-size: 0.875rem; /* Smaller font size for error messages */
+}
+
+.spinner {
+  margin-left: 8px; /* Space between spinner and text */
+}

@@ -1,0 +1,68 @@
+/* Container for the entire component */
+.outer {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff; /* White background for the outer container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center align text */
+  }
+  
+  /* Title styling */
+  h1 {
+    color: #333; /* Dark text color */
+    margin-bottom: 2rem; /* Space below the title */
+  }
+  
+  /* Inner container for product items */
+  .inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Space between product items */
+    justify-content: center; /* Center align items */
+  }
+  
+  /* Styling for individual product items */
+  .inside {
+    width: 100%;
+    max-width: 300px; /* Max width for product items */
+    padding: 1rem;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: left; /* Left align text */
+  }
+  
+  /* Product information styling */
+  .inside p {
+    margin: 0.5rem 0; /* Spacing between paragraphs */
+  }
+  
+  /* Bold text for labels */
+  .inside p b {
+    color: #555; /* Slightly lighter color for labels */
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007bff; /* Primary button color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size for button text */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  button:disabled {
+    background-color: #ccc; /* Disabled button color */
+    cursor: not-allowed; /* Not-allowed cursor for disabled button */
+  }
+  
